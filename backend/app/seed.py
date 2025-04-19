@@ -1,5 +1,5 @@
-from .models import Base, OrganizationalGoal, KeyResult
-from .database import engine, SessionLocal
+from models import Base, OrganizationalGoal, KeyResult
+from database import engine, SessionLocal
 import uuid
 
 Base.metadata.create_all(bind=engine)
